@@ -1,12 +1,16 @@
 import './sass/app.scss'
-import _ from 'lodash'
 
-function component () {
-  var element = document.createElement('div')
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ')
+import App from './components/App.js'
 
-  return element
-}
-
-document.body.appendChild(component())
+ReactDOM.render(
+  (
+    <Router>
+      <Route exact path='*' component={App} />
+    </Router>
+  ),
+  document.getElementById('app')
+)

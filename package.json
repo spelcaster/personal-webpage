@@ -5,7 +5,9 @@
   "author": "Hugo Augusto Freitas do Carmo",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --progress --color",
+    "watch": "webpack --progress --color --watch",
+    "server": "yarn run watch & webpack-dev-server --content-base ./dist --hot"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

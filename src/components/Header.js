@@ -8,6 +8,7 @@ class Header extends React.Component {
         <nav>
           <ul>
             <li>About</li>
+            <li><a href='#github-section'>Github</a></li>
             <li>Github</li>
             <li>Codepen</li>
           </ul>

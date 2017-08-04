@@ -1,29 +1,15 @@
+import './sass/app.scss'
+
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
 class App extends React.Component {
-  static propTypes = {
-  }
-
-  state = {
-  }
-
   render () {
     return (
-      <div>
-        <header>
-          Hugo do Carmo
-          <nav>
-            <ul>
-              <li>Github</li>
-              <li>Codepen</li>
-            </ul>
-          </nav>
-        </header>
-        <div className='container'>shurelous</div>
-        <footer>
-          Coded by
-          <a href='#' target='_blank'>Hugo do Carmo</a>
-        </footer>
+      <div className='container'>
+        <Header />
+        <Footer />
       </div>
     )
   }

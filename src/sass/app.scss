@@ -1,5 +1,11 @@
-$scorpion: #595959;
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome.scss';
+
+@import '~bootstrap/scss/bootstrap.scss';
+$untouchableYellow: #EEFFC0;
 
 html, body {
-    background-color: $scorpion;
+    height: 100%;
+    width: 100%;
+    background-color: $untouchableYellow;
 }

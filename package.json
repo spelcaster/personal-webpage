@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack --progress --color",
     "watch": "webpack --progress --color --watch",
-    "server": "yarn run watch & webpack-dev-server --content-base ./dist --hot"
+    "server": "yarn run watch & webpack-dev-server --content-base ./dist --hot",
+    "deploy": "webpack --progress --color --optimize-minimize"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -18,16 +19,22 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
     "node-sass": "^4.5.3",
+    "path-loader": "^1.0.2",
     "sass-loader": "^6.0.6",
     "standard": "^10.0.2",
     "standard-loader": "^6.0.1",
     "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1"

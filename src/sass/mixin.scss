@@ -1,0 +1,11 @@
+@mixin setLinkStyle {
+    &, &:hover, &:link, &:active, &:visited {
+        @content;
+    }
+}
+
+@mixin setLinkPseudoStyle {
+    &:hover, &:link, &:active, &:visited {
+        @content;
+    }
+}

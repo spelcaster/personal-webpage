@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack --progress --color",
     "watch": "webpack --progress --color --watch",
-    "server": "yarn run watch & webpack-dev-server --content-base ./dist --hot"
+    "server": "yarn run watch & webpack-dev-server --content-base ./dist --hot",
+    "deploy": "webpack --progress --color --optimize-minimize"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

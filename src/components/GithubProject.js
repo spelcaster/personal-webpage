@@ -9,7 +9,7 @@ class GithubProject extends React.Component {
   render () {
     return (
       <div className='card project-card'>
-        <img className='card-img' alt='Error 404' width='256px'
+        <img className='card-img project-img' alt='Error 404'
           src='https://cdn-images-1.medium.com/max/800/1*qdFdhbR00beEaIKDI_WDCw.gif' />
         <div className='card-img-overlay'>
           <h4 className='card-title'>{ this.props.title }</h4>

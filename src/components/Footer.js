@@ -2,13 +2,12 @@ import React from 'react'
 
 class Footer extends React.Component {
   render () {
+    let now = new Date()
+
     return (
       <footer>
         <p className='text-center'>
-          Coded by <a href='https://www.linkedin.com/in/hugo-augusto-do-carmo-5415a442'
-            target='_blank'>
-            Hugo do Carmo
-          </a>
+          © {now.getFullYear()} <a href='https://www.linkedin.com/in/hugo-augusto-do-carmo-5415a442' target='_blank'>Hugo do Carmo</a>. All rights reserved. <a href='mailto:hugrito.kun@gmail.com'>hugrito.kun@gmail.com</a>
         </p>
         <nav>
           <ul>

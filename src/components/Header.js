@@ -4,15 +4,9 @@ class Header extends React.Component {
   render () {
     return (
       <header>
-        Hugo do Carmo
-        <nav>
-          <ul>
-            <li>About</li>
-            <li><a href='#github-section'>Github</a></li>
-            <li>Github</li>
-            <li>Codepen</li>
-          </ul>
-        </nav>
+        <h1 className='text-center'>
+          Hugo do Carmo
+        </h1>
       </header>
     )
   }
